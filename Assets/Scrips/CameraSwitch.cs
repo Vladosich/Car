@@ -7,14 +7,12 @@ public class CameraSwitch : MonoBehaviour
     public Camera cam1;
     public Camera cam2;
 
-    // Start is called before the first frame update
     void Start()
     {
         cam1.enabled = true;
         cam2.enabled = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
